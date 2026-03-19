@@ -1,0 +1,25 @@
+{
+  "name": "openclaw-template",
+  "version": "1.0.0",
+  "description": "安装openclaw的空模版",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx openclaw gateway",
+    "stop": "npx openclaw gateway stop",
+    "dashboard": "npx openclaw dashboard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The27149/openclaw-template.git"
+  },
+  "author": "27149",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The27149/openclaw-template/issues"
+  },
+  "homepage": "https://github.com/The27149/openclaw-template#readme",
+  "dependencies": {
+    "openclaw": "^2026.3.13"
+  }
+}
